@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:darkslategrey;
+    font-family: sans-serif;
+    
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+#Baslık{
+    text-align: center;
+    font-size: 100px;
+    color: beige;
+}
+
+
+#inputText{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid ;
+    border-radius: 15px;
+    
+}
+
+#Listeye_Ekle{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color:darkolivegreen;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+#Listeye_Ekle:active {
+    background: blue;
+}
+
+#Listeyi_Temizle{
+    height: 45px;
+    width: 100px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color:brown;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 1rem;
+    
+}
+
+#Listeyi_Temizle:active{
+    background: #000;
+}
+
+.paragraph-styling{
+    margin: 1;
+    cursor: pointer;
+    font-size: 35px;
+    color:black;
+    text-transform: capitalize;
+    border: solid ;
+    margin-right: 10rem;
+    margin-left: 10rem;
+
+}
+
+.to-dos{
+    margin-top: 25px;
+}
